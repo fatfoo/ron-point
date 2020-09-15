@@ -21,7 +21,7 @@ public class UserController {
     @Autowired
     private JwtService jwtService;
 
-    @AuthRequired
+    @AuthRequired(required = false)
     @GetMapping("/sign")
     public String sign() throws JsonProcessingException {
 
@@ -35,7 +35,6 @@ public class UserController {
         return jwtService.sign(payload);
     }
 
-    @AuthRequired
     @GetMapping("/verify")
     public UserDTO verify() throws IOException {
         String payload = (String) JwtContext.getPayload();

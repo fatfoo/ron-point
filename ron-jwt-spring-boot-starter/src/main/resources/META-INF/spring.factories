@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.ron.jwt.starter.JwtAutoConfiguration
+# 如果想使用被动生效方式，请去掉注释
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.ron.jwt.starter.JwtAutoConfiguration

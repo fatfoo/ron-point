@@ -5,7 +5,7 @@ spring:
     name: ron-demo-jwt-starter
 ron:
   jwt:
-    #encrypt-key: cb9915297c8b43e820afd2a90a1e36cb
+    #hmac-key: cb9915297c8b43e820afd2a90a1e36cb
     jks-file-name: jwt.jks
     jks-password: ronjwt
     cert-password: ronjwt
