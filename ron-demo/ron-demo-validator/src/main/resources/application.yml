@@ -1,0 +1,8 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: ron-demo-validator
+hibernate:
+  validator:
+    fail_fast: false

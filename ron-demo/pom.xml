@@ -6,13 +6,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>ron-demo-validator</module>
-        <module>ron-demo-lombok</module>
+        <!--<module>ron-demo-lombok</module>-->
         <module>ron-demo-exception-handler</module>
         <module>ron-demo-unified-result</module>
-        <module>ron-demo-jackson</module>
+        <!--<module>ron-demo-jackson</module>-->
         <module>ron-demo-jwt</module>
         <module>ron-demo-jwt-starter</module>
-        <module>ron-demo-pot</module>
+        <!--<module>ron-demo-pot</module>-->
     </modules>
 
     <parent>

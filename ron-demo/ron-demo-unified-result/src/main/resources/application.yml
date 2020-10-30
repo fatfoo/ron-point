@@ -1,0 +1,10 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: ron-demo-unified-result
+#ron:
+#  global-exception-handler:
+#    enabled: true
+#    validator:
+#      failfast: true

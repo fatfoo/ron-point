@@ -1,0 +1,10 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: ron-demo-exception-handler
+#ron:
+#  global-exception-handler:
+#    enabled: true
+#    validator:
+#      failfast: true
